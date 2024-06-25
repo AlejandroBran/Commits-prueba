@@ -2,20 +2,22 @@
 
 using namespace std;
 
-int main(){
+int main()
+{
     float prime;
     float segun;
+    float result;
 
     cout << "\n Ingrese el primer numero: ";
     cin >> prime;
 
     cout << "\n Ingrese el segundo numero: ";
     cin >> segun;
-    
+
+    result = prime / segun;
+
+    cout << "\nEl resultado es " << result << ": ";
 
 
-
-
-
-    return 0;
+        return 0;
 }
