@@ -34,4 +34,4 @@ void guardar(){
     puntuacion << "\n Juego X y O... ";
 
     puntuacion.close();
-}
+} //HOLA...
